@@ -28,6 +28,8 @@
                 <!-- Customized Bootstrap Stylesheet -->
                 <link href="/client/css/bootstrap.min.css" rel="stylesheet">
 
+                <meta name="_csrf" content="${_csrf.token}" />
+                <meta name="_csrf_herder" content="${_csrf.headerName}" />
                 <!-- Template Stylesheet -->
                 <link href="/client/css/style.css" rel="stylesheet">
 
