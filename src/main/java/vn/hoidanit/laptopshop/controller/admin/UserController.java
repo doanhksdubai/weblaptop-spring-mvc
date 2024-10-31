@@ -127,5 +127,5 @@ public class UserController {
         this.userService.deleteUser(user.getId());
         return "redirect:/admin/user";
     }
-
+   
 }
